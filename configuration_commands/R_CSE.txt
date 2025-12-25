@@ -1,0 +1,15 @@
+enable
+configure terminal
+hostname R-CSE
+
+interface fastEthernet0/0
+ip address 10.0.8.1 255.255.252.0
+no shutdown
+
+interface fastEthernet0/1
+ip address 10.0.15.130 255.255.255.252
+no shutdown
+
+interface fastEthernet1/0
+ip address 10.0.15.145 255.255.255.252
+no shutdown

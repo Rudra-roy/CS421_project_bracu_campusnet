@@ -1,0 +1,15 @@
+enable
+configure terminal
+hostname R-EEE
+
+interface fastEthernet0/0
+ip address 10.0.14.1 255.255.255.0
+no shutdown
+
+interface fastEthernet0/1
+ip address 10.0.15.138 255.255.255.252
+no shutdown
+
+interface fastEthernet1/0
+ip address 10.0.15.149 255.255.255.252
+no shutdown
